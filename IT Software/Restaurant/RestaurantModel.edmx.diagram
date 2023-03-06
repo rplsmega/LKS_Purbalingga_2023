@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86a2513cc2b64b3cb0d1181bc777a526" Name="Diagram1">
+        <EntityTypeShape EntityType="DbRestaurantModel.Detailorder" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbRestaurantModel.Employee" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbRestaurantModel.Headorder" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbRestaurantModel.Member" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbRestaurantModel.Menu" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="DbRestaurantModel.FK__Detailord__MenuI__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="DbRestaurantModel.FK__Detailord__Order__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="DbRestaurantModel.FK__Headorder__Emplo__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="DbRestaurantModel.FK__Headorder__Membe__2B3F6F97" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

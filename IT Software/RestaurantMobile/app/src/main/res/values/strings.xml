@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Restaurant Mobile</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_login">Staff Management \n App Version 1.0</string>
+</resources>

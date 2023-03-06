@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-family: 'Racing Sans One', cursive;
+}
+
+#start {
+    display: block;
+    width: 960px;
+    height: 600px;
+    background-color: #252525;
+    color: white;
+}
+
+#start h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#start input, 
+#start button,
+#result button
+{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border: none;
+    width: 300px;
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+}
+
+#result button,
+#start button {
+    margin-top: 1rem;
+    background-color: rgb(255, 230, 0);
+    cursor: pointer;
+}
+
+#start button:hover {
+    background-color: rgb(255, 187, 0);
+}
+
+#start #htp {
+    margin: auto;
+    width: 600px;
+    font-size: 1rem;
+}
+
+#game-ui {
+    display: none;
+    width: 960px;
+    height: 600px;
+    position: absolute;
+}
+
+#game-ui .content {
+    width: 200px;
+    height: 600px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    background-color: #252525;
+    right: 0;
+}
+
+/* #start {
+    display: none;
+} */
+
+#result {
+    display: none;
+    width: 960px;
+    height: 600px;
+    background-color: #252525;
+    color: white;
+}
+
+#result h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#result .content {
+    width: 400px;
+    margin: auto;
+}
+
+#result li {
+    font-size: 1.25rem;
+}
+
+#result ul {
+    list-style-type: none;
+}
+
+canvas {
+    /* background-color: #252525; */
+}

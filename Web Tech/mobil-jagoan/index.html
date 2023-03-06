@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil Jagoan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+</head>
+<!-- <body onload="startGame()"> -->
+<body>
+    <div id="start">
+        <h1>Mobil Jagoan</h1>
+
+        <form onsubmit="startGame()" action="javascript:void(0)">
+            <input type="text" id="name" required placeholder="Masukkan Nama Player">
+            <button type="submit">Play</button>
+        </form>
+
+        <div id="htp">
+            <p>How to play:</p>
+            <ul>
+                <li>Masukkan nama player</li>
+                <li>Geser mobil ke kanan menggunakan 'Panah Kanan'</li>
+                <li>Geser mobil ke kiri menggunakan 'Panah Kiri'</li>
+                <li>Jika anda menabrak rintangan/mobil lain, maka anda akan Game Over</li>
+                <li>Raih highscore dengan cara menyelesaikan game sampai Finish</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="game-ui">
+        <div class="content">
+            <p id="playerName"></p>
+            <p id="score"></p>
+            <p id="speed"></p>
+        </div>
+    </div>
+
+    <div id="result">
+        <h1 id="title"></h1>
+
+        <div class="content">
+            <div class="content">
+                <p>Result</p>
+                <ul>
+                    <li id="result-name"></li>
+                    <li id="result-score"></li>
+                </ul>
+            </div>
+
+            <a href="index.html"><button>Play Again</button></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
